@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "../src/assets/Logo/google.png",
+    "jobTitle": "Marketing Manager",
+    "companyName": "Google",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "jobDescription": "We are seeking a marketing manager to lead our marketing efforts.",
+    "jobResponsibility": "Responsibilities include developing and executing marketing campaigns, managing a team of marketers, and analyzing campaign performance.",
+    "Requirements": "Bachelor's degree in Marketing or related field.",
+    "experiences": "Minimum of 5 years of experience in marketing.",
+    "email": "jobs@abccorp.com"
+  },
+
+  {
+    "id": 2,
+    "companyLogo": "../src/assets/Logo/netflix.png",
+    "jobTitle": "Sales Associate",
+    "companyName": "Netflix",
+    "remoteOrOnsite": "Remote",
+    "location": "Any Location",
+    "fulltimeOrParttime": "Part-time",
+    "salary": "$20 - $25 per hour",
+    "jobDescription": "We are looking for a sales associate to join our team.",
+    "jobResponsibility": "Responsibilities include making sales calls, following up on leads, and achieving sales targets.",
+    "Requirements": "High school diploma or equivalent.",
+    "experiences": "Minimum of 1 year of experience in sales.",
+    "email": "jobs@xyzcompany.com"
+  },
+
+  {
+    "id": 3,
+    "companyLogo": "../src/assets/Logo/tesla.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "Tesla",
+    "remoteOrOnsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$60,000 - $80,000",
+    "jobDescription": "We are seeking a graphic designer to create visual concepts for various media.",
+    "jobResponsibility": "Responsibilities include creating and designing graphics, collaborating with the marketing team, and staying up-to-date with design trends.",
+    "Requirements": "Bachelor's degree in Graphic Design or related field.",
+    "experiences": "Minimum of 3 years of experience in graphic design.",
+    "email": "jobs@designco.com"
+  },
+
+  {
+    "id": 4,
+    "companyLogo": "../src/assets/Logo/gitlab.png",
+    "jobTitle": "Software Developer",
+    "companyName": "GitLab",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "jobDescription": "We are looking for a software developer to join our team.",
+    "jobResponsibility": "Responsibilities include developing and maintaining software applications, troubleshooting issues, and collaborating with the development team.",
+    "Requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "Minimum of 2 years of experience in software development.",
+    "email": "jobs@techinc.com"
+  },
+
+  {
+    "id": 5,
+    "companyLogo": "../src/assets/Logo/semrush.png",
+    "jobTitle": "Human Resources Manager",
+    "companyName": "Semrush",
+    "remoteOrOnsite": "Onsite",
+    "location": "Chicago, IL",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$75,000 - $90,000",
+    "jobDescription": "We are seeking a human resources manager to oversee HR functions.",
+    "jobResponsibility": "Responsibilities include managing HR staff, developing policies and procedures, and ensuring compliance with labor laws.",
+    "Requirements": "Bachelor's degree in Human Resources or related field.",
+    "experiences": "Minimum of 5 years of experience in HR management.",
+    "email": "jobs@hrsolutions.com"
+  },
+
+  {
+    "id": 6,
+    "companyLogo": "../src//assets/Logo/nogod.png",
+    "jobTitle": "Content Writer",
+    "companyName": "Nogod",
+    "remoteOrOnsite": "Remote",
+    "location": "Any Location",
+    "fulltimeOrParttime": "Part-time",
+    "salary": "$30 - $35 per hour",
+    "jobDescription": "We are seeking a content writer to create written content for various media.",
+    "jobResponsibility": "Responsibilities include researching and writing content, editing and proofreading content, and collaborating with the marketing team.",
+    "Requirements": "Bachelor's degree in English, Journalism, or related field.",
+    "experiences": "Minimum of 2 years of experience in content writing.",
+    "email": "jobs@contentco.com"
+  }
+]
