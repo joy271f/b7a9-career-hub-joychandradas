@@ -1,0 +1,18 @@
+.home-container{
+    background-color: #7e8ffe29;
+    border-radius: 10px;
+}
+.home-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.title-span {
+  color: #7e90fe;
+}
+
+.home-description {
+  padding-right: 120px;
+}
+
