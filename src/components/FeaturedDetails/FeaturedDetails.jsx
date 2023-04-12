@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
+import { Button } from 'react-bootstrap';
+import { addToDb } from '../../utilities/fakedb';
 
 const FeaturedDetails = () => {
     const [details, setDetails] = useState({});
@@ -13,6 +15,10 @@ const FeaturedDetails = () => {
             setDetails(jobs.find(job => job.id == detailsId))
         }
     }, [jobs])
+
+    const handleApplyBtn = (details) => {
+        addToDb(details);
+    }
 
     return (
         <div className='row mt-5'>
@@ -35,6 +41,7 @@ const FeaturedDetails = () => {
                         <p className='mt-3'><strong>Email: </strong>{details.email}</p>
                         <p className='mt-3'><strong>Address: </strong>{details.address}</p>
                         <p className='mt-3'><strong>Phone: </strong>{details.phone}</p>
+                        <Button onClick={() => handleApplyBtn(details)}>Apply Now</Button>
                     </Card.Body>
                 </Card>
             </div>
