@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import { Button } from 'react-bootstrap';
 import { addToDb } from '../../utilities/fakedb';
@@ -41,7 +41,7 @@ const FeaturedDetails = () => {
                         <p className='mt-3'><strong>Email: </strong>{details.email}</p>
                         <p className='mt-3'><strong>Address: </strong>{details.address}</p>
                         <p className='mt-3'><strong>Phone: </strong>{details.phone}</p>
-                        <Button onClick={() => handleApplyBtn(details)}>Apply Now</Button>
+                        <Link to="/applied-jobs"><Button onClick={() => handleApplyBtn(details)}>Apply Now</Button></Link>
                     </Card.Body>
                 </Card>
             </div>
