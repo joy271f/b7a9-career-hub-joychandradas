@@ -11,16 +11,24 @@ import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import Homes from './components/Homes/Homes';
+import FeaturedDetails from './components/FeaturedDetails/FeaturedDetails';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
     children:[
       {
         path:'/',
         element: <Homes></Homes>,
         loader: () => fetch('jobCetegory.json')
+      },
+      {
+        path:'jobdetails',
+        element: <FeaturedDetails></FeaturedDetails>,
+        loader: () => fetch('featuredJob.json')
       },
       {
         path:'statistics',

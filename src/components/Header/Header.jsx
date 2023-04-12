@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Header = () => {
     return (
-        <Navbar className='container' bg="white mt-md-3" expand="lg">
+        <Navbar className='container' bg="white" expand="lg">
             <Container>
                 <Link className='network fw-bold fs-5' to="/">Network-Hub</Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

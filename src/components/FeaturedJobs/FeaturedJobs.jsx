@@ -9,6 +9,15 @@ const FeaturedJobs = () => {
             .then(res => res.json())
             .then(data => setFeaturedJobs(data))
     }, [])
+
+
+    const handleDetailBtn = (id) => {
+        console.log(featuredJobs);
+        console.log(id);
+    }
+
+
+
     return (
         <>
             <div className='text-center mt-5'>
@@ -20,6 +29,7 @@ const FeaturedJobs = () => {
                     featuredJobs.map(job => <FeaturedJob
                         key={job.id}
                         job={job}
+                        handleDetailBtn={handleDetailBtn}
                     ></FeaturedJob>)
                 }
             </div>

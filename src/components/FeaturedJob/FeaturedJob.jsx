@@ -2,9 +2,12 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import './FeaturedJob.css'
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-const FeaturedJob = ({ job }) => {
-    const { jobTitle, companyName, companyLogo, remoteOrOnsite, location, salary } = job;
+const FeaturedJob = ({ job, handleDetailBtn }) => {
+    const { id, jobTitle, companyName, companyLogo, remoteOrOnsite, fulltimeOrParttime, location, salary } = job;
+
+
     return (
         <div className='container single-job-card p-2'>
             <Card>
@@ -13,12 +16,13 @@ const FeaturedJob = ({ job }) => {
                     <div className='ps-3'>
                         <h5>{jobTitle}</h5>
                         <p>{companyName}</p>
-                        <p className='fw-bold'>{remoteOrOnsite}</p>
-                        <div className="d-flex">
+                        <span className='border border-primary p-1 rounded'>{remoteOrOnsite}</span>
+                        <span className='ms-3 border border-primary p-1 rounded'>{fulltimeOrParttime}</span>
+                        <div className="d-flex mt-3">
                             <p>{location}</p>
                             <p className='ps-5'>{salary}</p>
                         </div>
-                        <Button>View Details</Button>
+                        <Link to="/jobdetails"><Button onClick={() => handleDetailBtn(id)}>View Details</Button></Link>
                     </div>
                 </Card.Body>
             </Card>
