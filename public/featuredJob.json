@@ -12,7 +12,9 @@
     "jobResponsibility": "Responsibilities include developing and executing marketing campaigns, managing a team of marketers, and analyzing campaign performance.",
     "Requirements": "Bachelor's degree in Marketing or related field.",
     "experiences": "Minimum of 5 years of experience in marketing.",
-    "email": "jobs@abccorp.com"
+    "email": "jobs@abccorp.com",
+    "address": "Linwood, Kansas(KS), 66052",
+    "phone": "(708) 345-5929"
   },
 
   {
@@ -28,7 +30,9 @@
     "jobResponsibility": "Responsibilities include making sales calls, following up on leads, and achieving sales targets.",
     "Requirements": "High school diploma or equivalent.",
     "experiences": "Minimum of 1 year of experience in sales.",
-    "email": "jobs@xyzcompany.com"
+    "email": "jobs@xyzcompany.com",
+    "address": "White Castle, Louisiana(LA), 70788",
+    "phone": "(860) 347-1703"
   },
 
   {
@@ -44,7 +48,9 @@
     "jobResponsibility": "Responsibilities include creating and designing graphics, collaborating with the marketing team, and staying up-to-date with design trends.",
     "Requirements": "Bachelor's degree in Graphic Design or related field.",
     "experiences": "Minimum of 3 years of experience in graphic design.",
-    "email": "jobs@designco.com"
+    "email": "jobs@designco.com",
+    "address": "Wrentham, Massachusetts(MA), 02093",
+    "phone": "(804) 744-6475"
   },
 
   {
@@ -60,7 +66,9 @@
     "jobResponsibility": "Responsibilities include developing and maintaining software applications, troubleshooting issues, and collaborating with the development team.",
     "Requirements": "Bachelor's degree in Computer Science or related field.",
     "experiences": "Minimum of 2 years of experience in software development.",
-    "email": "jobs@techinc.com"
+    "email": "jobs@techinc.com",
+    "address": "Cleveland, Mississippi(MS), 38732",
+    "phone": "(806) 256-2035"
   },
 
   {
@@ -76,7 +84,9 @@
     "jobResponsibility": "Responsibilities include managing HR staff, developing policies and procedures, and ensuring compliance with labor laws.",
     "Requirements": "Bachelor's degree in Human Resources or related field.",
     "experiences": "Minimum of 5 years of experience in HR management.",
-    "email": "jobs@hrsolutions.com"
+    "email": "jobs@hrsolutions.com",
+    "address": "Sodus Point, New York(NY), 14555",
+    "phone": "(608) 429-2809"
   },
 
   {
@@ -92,6 +102,8 @@
     "jobResponsibility": "Responsibilities include researching and writing content, editing and proofreading content, and collaborating with the marketing team.",
     "Requirements": "Bachelor's degree in English, Journalism, or related field.",
     "experiences": "Minimum of 2 years of experience in content writing.",
-    "email": "jobs@contentco.com"
+    "email": "jobs@contentco.com",
+    "address": "Coal Township, Pennsylvania(PA), 17866",
+    "phone": "(781) 944-8451"
   }
 ]

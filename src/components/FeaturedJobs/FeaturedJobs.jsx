@@ -5,16 +5,10 @@ import './FeaturedJobs.css'
 const FeaturedJobs = () => {
     const [featuredJobs, setFeaturedJobs] = useState([]);
     useEffect(() => {
-        fetch('featuredJob.json')
+        fetch('/featuredJob.json')
             .then(res => res.json())
             .then(data => setFeaturedJobs(data))
     }, [])
-
-
-    const handleDetailBtn = (id) => {
-        console.log(featuredJobs);
-        console.log(id);
-    }
 
 
 
@@ -29,7 +23,6 @@ const FeaturedJobs = () => {
                     featuredJobs.map(job => <FeaturedJob
                         key={job.id}
                         job={job}
-                        handleDetailBtn={handleDetailBtn}
                     ></FeaturedJob>)
                 }
             </div>

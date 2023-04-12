@@ -4,7 +4,7 @@ import './FeaturedJob.css'
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const FeaturedJob = ({ job, handleDetailBtn }) => {
+const FeaturedJob = ({ job }) => {
     const { id, jobTitle, companyName, companyLogo, remoteOrOnsite, fulltimeOrParttime, location, salary } = job;
 
 
@@ -22,7 +22,7 @@ const FeaturedJob = ({ job, handleDetailBtn }) => {
                             <p>{location}</p>
                             <p className='ps-5'>{salary}</p>
                         </div>
-                        <Link to="/jobdetails"><Button onClick={() => handleDetailBtn(id)}>View Details</Button></Link>
+                        <Link to={`/jobdetails/${id}`}><Button>View Details</Button></Link>
                     </div>
                 </Card.Body>
             </Card>
