@@ -1,6 +1,6 @@
 import React from 'react';
 import './Homes.css'
-import companyLogo from '../../assets/All_Images/man.png';
+import companyLogo from '/assets/All_Images/man.png';
 import { useLoaderData } from 'react-router-dom';
 import { Button, Card } from 'react-bootstrap';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';

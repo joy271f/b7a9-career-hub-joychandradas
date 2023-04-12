@@ -1,25 +1,25 @@
 [
     {
       "id": 1,
-      "logo": "../src/assets/Icons/accounts-1.png",
+      "logo": "/assets/Icons/accounts-1.png",
       "name": "Technology",
       "jobAvailable": "100k Jobs Available"
     },
     {
       "id": 2,
-      "logo": "../src/assets/Icons/business-1.png",
+      "logo": "/assets/Icons/business-1.png",
       "name": "Finance",
       "jobAvailable": "50k Jobs Available"
     },
     {
       "id": 3,
-      "logo": "../src/assets/Icons/chip 1.png",
+      "logo": "/assets/Icons/chip 1.png",
       "name": "Marketing",
       "jobAvailable": "20k Jobs Available"
     },
     {
       "id": 4,
-      "logo": "../src/assets/Icons/social-media-1.png",
+      "logo": "/assets/Icons/social-media-1.png",
       "name": "Education",
       "jobAvailable": "10k Jobs Available"
     }

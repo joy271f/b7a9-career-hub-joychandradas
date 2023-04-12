@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "companyLogo": "../src/assets/Logo/google.png",
+    "companyLogo": "/assets/Logo/google.png",
     "jobTitle": "Marketing Manager",
     "companyName": "Google",
     "remoteOrOnsite": "Onsite",
@@ -19,7 +19,7 @@
 
   {
     "id": 2,
-    "companyLogo": "../src/assets/Logo/netflix.png",
+    "companyLogo": "/assets/Logo/netflix.png",
     "jobTitle": "Sales Associate",
     "companyName": "Netflix",
     "remoteOrOnsite": "Remote",
@@ -37,7 +37,7 @@
 
   {
     "id": 3,
-    "companyLogo": "../src/assets/Logo/tesla.png",
+    "companyLogo": "/assets/Logo/tesla.png",
     "jobTitle": "Graphic Designer",
     "companyName": "Tesla",
     "remoteOrOnsite": "Onsite",
@@ -55,7 +55,7 @@
 
   {
     "id": 4,
-    "companyLogo": "../src/assets/Logo/gitlab.png",
+    "companyLogo": "/assets/Logo/gitlab.png",
     "jobTitle": "Software Developer",
     "companyName": "GitLab",
     "remoteOrOnsite": "Onsite",
@@ -73,7 +73,7 @@
 
   {
     "id": 5,
-    "companyLogo": "../src/assets/Logo/semrush.png",
+    "companyLogo": "/assets/Logo/semrush.png",
     "jobTitle": "Human Resources Manager",
     "companyName": "Semrush",
     "remoteOrOnsite": "Onsite",
@@ -91,7 +91,7 @@
 
   {
     "id": 6,
-    "companyLogo": "../src//assets/Logo/nogod.png",
+    "companyLogo": "/assets/Logo/nogod.png",
     "jobTitle": "Content Writer",
     "companyName": "Nogod",
     "remoteOrOnsite": "Remote",
